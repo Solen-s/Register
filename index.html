@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgister</title> 
+    <link rel="stylesheet" href="reg.css"> 
+</head>
+<body>
+    <form action="">
+        <table class="input" >
+         <tr>
+            <th colspan="2">Resgister Form</th>
+         </tr>
+         <tr>
+            <td>
+                <label for="fntext">First Name:</label>
+            </td>
+            <td>
+                <input type="text" name="fntext" id="fn" required>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="lntext">Last Name: </label>
+            </td>
+            <td>
+                <input type="text" name="lntext" id="ln" required>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="agetext">Age:</label>
+            </td>
+            <td>
+                <input type="text" name="agetext" id="age" required>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="mail">Email Address:</label>
+            </td>
+            <td>
+                <input type="text" name="email" id="email" required>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="btn">
+                <button type="button" onclick="displayInfo()">Save</button>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2">
+                <p>Note Please fill full this form.</p>
+            </td>
+         </tr>
+        </table>
+    </form>
+    <table class="output" id="otable">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Email Address</ths>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+</html>
+<script src="reg.js"></script>

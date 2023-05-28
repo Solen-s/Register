@@ -1,0 +1,64 @@
+form{
+    border-radius: 15px;
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 235, 205, 0.811);
+}
+.input{
+    user-select: none;
+    min-width: 400px;
+    border-spacing: 10px;
+}
+.input label{
+    padding: 10px;
+    margin: 0 5px;
+}
+.input input{
+    outline: none;
+    padding: 4px;
+    margin: 4px 10px;
+}
+.input td button{
+    float: right;
+    padding: 10px;
+    margin: 4px 30px;
+    min-width: 80px;
+    border-radius: 7px;
+    background-color:rgb(167, 167, 110);
+    border: none;
+}
+.input input:hover{
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px skyblue;
+}
+.input button:hover{
+    background-color:rgba(219, 219, 116, 0.851);
+}
+p::before{
+   content: "* "; 
+   color: red;
+}
+
+/*table output*/
+.output{
+    margin: 20px auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+.output thead th{
+    background-color: #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.822);
+    padding: 10px 25px;
+}
+.output td{
+    padding: 10px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.822);
+}
+
+@media only screen and (min-width: 200px){
+    form{
+        background-color: rgba(255, 235, 205, 0.811);
+    }
+}
