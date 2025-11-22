@@ -1,7 +1,10 @@
 function displayInfo(){
     //Get the varible of the input fields
     var fname = document.getElementById("fn").value;
-    var lname = document.getElementById("ln").value;
+const fname = document.getElementById("fn").value;
+let lname = document.getElementById("ln").value;
+const age = document.getElementById("age").value;
+let email = document.getElementById("email").value;
     var age = document.getElementById("age").value;
     var email = document.getElementById("email").value;
 
